@@ -10,9 +10,9 @@ Plugin Jeedom V4 avec architecture PHP minimaliste et démon Node.js.
 
 ## Configuration
 Générer une clé sur le site https://api-maree.fr/. La renseigner ici:
-<img width="1443" height="171" alt="image" src="https://github.com/user-attachments/assets/cfceb3df-cc40-4346-8cde-aebbb762568c" />
+<img width="1443" height="171" alt="image" src="https://philippemperso.github.io/marindata-docs/images/Configuration.png" />
 Ne pas modifier le port interne du démon, sauf s'il est déjà utilisé par une autre application.
 
 ## Equipement
 Créer ensuite 1 ou plusieurs équipements selon les ports qui vous intéressent:
-<img width="966" height="219" alt="image" src="https://github.com/user-attachments/assets/6c05d545-a886-4f97-bdbe-1c07c8923af0" />
+<img width="966" height="219" alt="image" src="https://philippemperso.github.io/marindata-docs/images/Equipement.png" />
