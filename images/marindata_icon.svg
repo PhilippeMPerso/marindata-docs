@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309 348" width="309" height="348">
+  <defs>
+    <!-- Dégradé de fond bleu océan -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0073b7" />
+      <stop offset="55%" stop-color="#0b4670" />
+      <stop offset="100%" stop-color="#0a253d" />
+    </linearGradient>
+
+    <!-- Dégradé de la vague principale -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#33a8e8" />
+      <stop offset="100%" stop-color="#1982c4" />
+    </linearGradient>
+
+    <!-- Masque aux coins arrondis pour contenir les vagues -->
+    <clipPath id="iconClip">
+      <rect x="0" y="0" width="309" height="309" rx="58" ry="58" />
+    </clipPath>
+  </defs>
+
+  <!-- Groupe principal placé en haut (laissant la marge transparente en bas du gabarit 309x348) -->
+  <g clip-path="url(#iconClip)">
+    <!-- Fond carré aux bords arrondis -->
+    <rect x="0" y="0" width="309" height="309" rx="58" ry="58" fill="url(#bgGrad)" />
+
+    <!-- Soleil jaune -->
+    <circle cx="222" cy="84" r="24" fill="#e5c11a" />
+
+    <!-- Ombre légère de la vague arrière -->
+    <path d="M 28 215 Q 78 190 132 212 T 281 200 L 281 268 Q 281 281 268 281 L 41 281 Q 28 281 28 268 Z" fill="#062844" opacity="0.55" />
+
+    <!-- Vague principale bleu clair -->
+    <path d="M 28 225 Q 78 202 132 222 T 281 210 L 281 268 Q 281 281 268 281 L 41 281 Q 28 281 28 268 Z" fill="url(#waveGrad)" />
+
+    <!-- Reflet blanc sur la crête de la vague -->
+    <path d="M 28 225 Q 78 202 132 222 T 281 210" fill="none" stroke="#bce3fa" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>
